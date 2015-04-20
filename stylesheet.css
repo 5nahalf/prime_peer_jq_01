@@ -16,5 +16,8 @@ h3 {
 }
 
 #name {
-
+	background-color: white;
+	border-radius: 10px;
+	width: 65%;
+	white-space: nowrap;
 }
