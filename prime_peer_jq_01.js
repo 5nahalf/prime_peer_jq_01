@@ -1,7 +1,8 @@
 $(document).ready(function(){
 $("#btn").on("click", function(){
+	$("#name").empty();
 	People();
-	$("#person").append("<p>You are a " + gender + " who is " + weight + "lbs and " + age + " years old</p>");
+	$("#person").prepend("<p id='name'>You are a " + gender + " who is " + weight + "lbs and " + age + " years old!</p>");
 
 	});
 });

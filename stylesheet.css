@@ -3,11 +3,18 @@
 	background-color: #68BCBE;
 	width: 200px;
 	height: 200px;
-
+	border: 1px dotted gray;
 }
 
 body {
 	background-image: url("oldman.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+}
+h3 {
+	text-align: center;
+}
+
+#name {
+
 }
